@@ -1,6 +1,6 @@
 # neural-network-from-scratch
 predict below:
-x[0]+x[1] = y_test[0], x[2]+x[3] = y_test[1]
+<br>x[0]+x[1] = y_test[0], x[2]+x[3] = y_test[1]
 
 # scheme
 Simple Neural network with 3 layers - input, hidden, output.
