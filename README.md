@@ -4,9 +4,10 @@ This network predicts below with 4 input nodes(x[0]~x[3]):
 <br>x[0]+x[1] = y_test[0], x[2]+x[3] = y_test[1]
 
 # Scheme
-Simple Neural network with 3 layers - input, hidden, output.
-Input layer has 4, hidden layer has #<i>h_nodes</i>, output layer has 2 nodes.
-Error is defined by mean square error divided by 2.
+Simple neural network with 3 layers - input, hidden, output.
+Number of nodes of input layer is 4, output layer is 2 and hidden layer is variable <i>h_nodes</i>.
+Error is defined by mean square error divided by 2
+
 ## Setup
 
 ```python
