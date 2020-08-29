@@ -20,7 +20,7 @@ def gen():
     y_test = np.array([x[0]+x[1], x[2]+x[3]])
 #ideal output : o2[0] = x[0]+x[1], o2[1] = x[2]+x[3]
 
-h_nodes = 10    #number of hidden nodes
+h_nodes = 20    #number of hidden nodes
 w1 = np.random.randn(5, h_nodes)    #w1[4] is bias
 net1 = []
 o1 = []
@@ -108,8 +108,8 @@ def loss():
 #===== plot error function block
         
 start = 0
-step = 10   #training batch size
-end = 3000  #total number of trains
+step = 20   #training batch size
+end = 5000  #total number of trains
 n_trains = np.arange(start, end, step, dtype='int')
 n_loss = np.zeros(len(n_trains));
 valid_size = 100    #for error testing - NOT training batch
