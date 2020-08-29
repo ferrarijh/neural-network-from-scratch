@@ -7,8 +7,8 @@ This network predicts below with 4 input nodes(x[0]~x[3]):
 Simple neural network with 3 layers - input, hidden, output.
 Number of nodes of input layer is 4, output layer is 2 and hidden layer is variable <i>h_nodes</i>.
 Error is defined by mean squared error.
-Default range of x[k]: 1~200
-Default learning rate: lr = 0.00001
+<br>Default range of x[k]: 1~200
+<br>Default learning rate: lr = 0.00001
 
 ## FYI
 This network does not normalize inputs. Therefore wide range of x, large lr, large number of hidden nodes can easily trigger overflow which leads to exception.
