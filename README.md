@@ -1,12 +1,13 @@
 # neural-network-from-scratch
-predict below:
+Simple neural network to test what I've studied.
+This network predicts below with 4 input nodes(x[0]~x[3]):
 <br>x[0]+x[1] = y_test[0], x[2]+x[3] = y_test[1]
 
-# scheme
+# Scheme
 Simple Neural network with 3 layers - input, hidden, output.
 Input layer has 4, hidden layer has #<i>h_nodes</i>, output layer has 2 nodes.
 Error is defined by mean square error divided by 2.
-## setup
+## Setup
 
 ```python
 def gen():
@@ -84,7 +85,7 @@ def trains(n):
     for i in range(n):
         train()
 ```
-# plot
+# Result
 <div>
   <img src="https://github.com/ferrarijh/neural-network-from-scratch/blob/master/demo/step10_end3000.png">
 </div>
