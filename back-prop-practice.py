@@ -9,7 +9,7 @@ This script is just for studying and testing NN.
 !! Range of x should not be too large or NN will encounter overflow !!
 """
 
-lr = 0.00001    #learning rate
+lr = 0.000001    #learning rate
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -20,7 +20,7 @@ def gen():
     y_test = np.array([x[0]+x[1], x[2]+x[3]])
 #ideal output : o2[0] = x[0]+x[1], o2[1] = x[2]+x[3]
 
-h_nodes = 10    #number of hidden nodes
+h_nodes = 20    #number of hidden nodes
 w1 = np.random.randn(5, h_nodes)    #w1[4] is bias
 net1 = []
 o1 = []
