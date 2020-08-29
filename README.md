@@ -112,10 +112,12 @@ Here <i>h_nodes</i> = 3. Performance got better but still not so good.
     <img src="https://github.com/ferrarijh/neural-network-from-scratch/blob/master/demo/node6.png">
 </div>
 <i>h_nodes</i> = 6.
+<br></br>
 <div>
     <img src="https://github.com/ferrarijh/neural-network-from-scratch/blob/master/demo/node8.png">
 </div>
 <i>h_nodes</i> = 8. Shows good performance around 100 epoch but soon exhibits overfitting after that.
+<br></br>
 <div>
     <img src="https://github.com/ferrarijh/neural-network-from-scratch/blob/master/demo/node10.png">
 </div>
