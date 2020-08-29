@@ -133,6 +133,7 @@ h_nodes = 2.
     <img src="https://github.com/ferrarijh/neural-network-from-scratch/blob/master/demo/node6_lr000001.png">
 </div>
 h_nodes = 6.
+<br></br>
 <div>
     <img src="https://github.com/ferrarijh/neural-network-from-scratch/blob/master/demo/node10_lr000001_3.png">
 </div>
