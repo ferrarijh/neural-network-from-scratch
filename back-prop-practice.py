@@ -71,9 +71,6 @@ def forward():
     for i in range(len(o2)):
         o2[i] = myRelu(o2[i])
 
-def loss():
-    return ((y_test-o2)**2 /2).sum()
-
 def backProp():   #back propagation
     for i in range(len(w2)):    #ith node
         for j in range(len(w2[i])): #jth link
@@ -104,6 +101,9 @@ def train():
 def trains(n):
     for i in range(n):
         train()
+
+def loss():
+    return ((y_test-o2)**2 /2).sum()
         
 #===== plot error function block
         
